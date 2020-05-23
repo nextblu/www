@@ -2112,6 +2112,10 @@ ul {
   padding-bottom: 0px;
 }
 
+.main_menu .navbar-brand img {
+  max-height: 50px;
+}
+
 /* line 14, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
 .main_menu .navbar {
   padding: 0px;
@@ -2260,6 +2264,7 @@ ul {
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
   top: 0;
   background-color: #0ab6ff;
+  min-height: 80px;
 }
 
 /* line 149, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
@@ -2344,7 +2349,7 @@ ul {
   }
   /* line 236, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_menu.scss */
   .navbar-brand img {
-    max-width: 100px;
+    height: 50px;
     margin: 0 auto;
     position: absolute;
     left: 0;
