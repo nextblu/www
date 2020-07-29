@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c63ccc8-cf78-4c7b-a339-8bb27c00aa8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/bulma.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/bulma.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/sass/base/generic.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/sass/base/generic.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/sass/utilities/initial-variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/sass/utilities/initial-variables.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/abstracts/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/abstracts/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/navbar-clone.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/navbar-clone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/sidebar.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fMoIYu47jQ3ridlZeupz8ztvWW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c63ccc8-cf78-4c7b-a339-8bb27c00aa8b" name="Default Changelist" comment="" />
+      <created>1596037243459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596037243459</updated>
+      <workItem from="1596037244886" duration="5224000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1596043084107">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.25.1366.743@0.25.1366.743" timestamp="1596043084107" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1596043084106">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.25.1366.743@0.25.1366.743" timestamp="1596043084106" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1596043084106">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.25.1366.743@0.25.1366.743" timestamp="1596043084106" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1596043084106">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.25.1366.743@0.25.1366.743" timestamp="1596043084106" />
+  </component>
+</project>
