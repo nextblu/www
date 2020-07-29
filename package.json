@@ -1,14 +1,14 @@
 {
-  "name": "bulkit",
+  "name": "NextBlu",
   "version": "3.0.0",
-  "description": "Sass landing pages",
+  "description": "The home website of the NextBlu group.",
   "main": "index.js",
   "scripts": {},
-  "author": "Css Ninja",
+  "author": "NextBlu",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cssninjaStudio"
+    "url": "https://github.com/nextblu/"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
