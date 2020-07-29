@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title> NextBlu :: Home</title>
+        <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+        <!--Core CSS -->
+        <link rel="stylesheet" href="assets/css/bulma.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/core.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="preloader">
+            <div id="status"></div>
+        </div>        
+        <section class="hero is-fullheight is-default is-bold">
+        
+            <nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="https://www.nextblu.com">
+                            <img src="assets/img/logos/favicon.png" alt="" height="50">
+                        </a>
+            
+                        <!-- <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+                            <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+                                <svg width="1000px" height="1000px">
+                                    <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+                                    <path class="path2" d="M 300 500 L 700 500"></path>
+                                    <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+                                </svg>
+                                <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+                            </div>
+                        </a> -->
+            
+                        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+            
+                    <div id="navbar-menu" class="navbar-menu is-static">
+            
+                        <div class="navbar-start">
+                            <a class="navbar-item is-hidden-mobile">
+                                <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+                                    <svg width="1000px" height="1000px">
+                                        <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+                                        <path class="path2" d="M 300 500 L 700 500"></path>
+                                        <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+                                    </svg>
+                                    <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+                                </div>
+                            </a>
+                        </div>
+            
+                        <div class="navbar-end">
+                            <a href="https://wiki.nextblu.com" class="navbar-item is-secondary">
+                                Wiki
+                            </a>
+                            <a href="https://cloud.nextblu.com" class="navbar-item is-secondary">
+                                Cloud
+                            </a>
+                            <a href="https://me.nextblu.com/login" class="navbar-item is-selected">
+                                Log in
+                            </a>
+                            <a href="https://me.nextblu.com" class="navbar-item">
+                                <span class="button signup-button rounded secondary-btn raised">
+                                    Sign up
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="https://cssninja.io">
+                            <img src="assets/img/logos/favicon.png" alt="" height="50">
+                        </a>
+            
+            
+                        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+            
+                    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+            
+                        <div class="navbar-start">
+                            <a class="navbar-item is-hidden-mobile">
+                                <div id="cloned-menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+                                    <svg width="1000px" height="1000px">
+                                        <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+                                        <path class="path2" d="M 300 500 L 700 500"></path>
+                                        <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+                                    </svg>
+                                    <button id="cloned-menu-icon-trigger" class="menu-icon-trigger"></button>
+                                </div>
+                            </a>
+                        </div>
+            
+                        <div class="navbar-end">
+                            <a href="https://wiki.nextblu.com" class="navbar-item is-secondary">
+                                Wiki
+                            </a>
+                            <a href="https://cloud.nextblu.com" class="navbar-item is-secondary">
+                                Cloud
+                            </a>
+                            <a href="https://me.nextblu.com/login" class="navbar-item is-selected">
+                                Log in
+                            </a>
+                            <a href="https://me.nextblu.com" class="navbar-item">
+                                <span class="button signup-button rounded secondary-btn raised">
+                                    Sign up
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-vcentered">
+                        <div class="column is-5 is-offset-1 landing-caption">
+                            <h1 class="title is-1 is-bold is-spaced">
+                                Building,<br> the future.
+                            </h1>
+                            <h2 class="subtitle is-5 is-muted">
+                                A group of guys, playing with computers. </h2>
+                            <div class="button-wrap">
+                                <a href="https://projectum.nextblu.com/" class="button cta is-rounded primary-btn raised">
+                                    Our projects
+                                </a>
+                                <a href="https://www.github.com/nextblu/" class="button cta is-rounded">
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                        <div class="column is-5">
+                            <figure class="image is-4by3">
+                                <img src="assets/img/illustrations/worker.svg" alt="Description">
+                            </figure>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="hero-foot mb-20">
+                <div class="container">
+                    <div class="tabs is-centered">
+                        <ul>
+                            <li><a><img class="partner-logo" src="assets/img/logos/clients/systek.svg"></a></li>
+                            <li><a><img class="partner-logo" src="assets/img/logos/clients/tribe.svg"></a></li>
+                            <li><a><img class="partner-logo" src="assets/img/logos/clients/kromo.svg"></a></li>
+                            <li><a><img class="partner-logo" src="assets/img/logos/clients/infinite.svg"></a></li>
+                            <li><a><img class="partner-logo" src="assets/img/logos/clients/gutwork.svg"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section is-medium">
+            <div class="container">
+                <div class="title-wrapper has-text-centered">
+                    <h2 class="title is-2">What do we do</h2>
+                    <h3 class="subtitle is-5 is-muted">Most likely playing with some stuff</h3>
+                    <div class="divider is-centered"></div>
+                </div>
+        
+                <div class="columns is-vcentered side-feature mt-60">
+                    <div class="column is-4 is-offset-2">
+                        <h3 class="title is-3 mb-10 is-title-reveal">We are building an Open-Source stack</h2>
+                        <p class="subtitle is-5 is-muted">We do like open source projects, we can learn a lot from other people,
+                            that's why we are realising pretty much every project on GitHub.</p>
+                    </div>
+                    <div class="column is-5">
+                        <img src="assets/img/illustrations/features/feature-1.png" alt="">
+                    </div>
+                </div>
+        
+                <div class="columns is-vcentered side-feature mt-60">
+                    <div class="column is-5 is-offset-1">
+                        <img src="assets/img/illustrations/features/feature-2.png" alt="">
+                    </div>
+                    <div class="column is-4 is-offset-1">
+                        <h3 class="title is-3 mb-10 is-title-reveal">The challenge?</h2>
+                        <p class="subtitle is-5 is-muted">
+                             We want to have fun, we want to elaborate extraordinary plans for the future of NextBlu and (possibly)
+                            the future of the Earth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section class="section is-medium">
+            <div class="container">
+                <div class="title-wrapper has-text-centered">
+                    <h2 class="title is-2">Wait, there's more</h2>
+                    <h3 class="subtitle is-5 is-muted">So, here are some cool projects</h3>
+                    <div class="divider is-centered"></div>
+                </div>
+        
+                <div class="content-wrapper">
+                    <div class="columns is-multiline icon-list">
+                        <div class="column is-3">
+                            <div class="feature-icon has-text-centered">
+                                <div class="icon-wrap is-icon-reveal">
+                                    <ion-icon name="terminal-outline" size="large"></ion-icon>
+                                </div>
+                                <h4>ShellBin</h4>
+                                <p>Your stdout to a bin with ease</p>
+                            </div>
+                        </div>
+                        <div class="column is-3">
+                            <div class="feature-icon has-text-centered">
+                                <div class="icon-wrap is-icon-reveal">
+                                    <ion-icon name="git-commit-outline" size="large"></ion-icon>
+                                </div>
+                                <h4>Tentalog</h4>
+                                <p>Centralized logging solution</p>
+                            </div>
+                        </div>
+                        <div class="column is-3">
+                            <div class="feature-icon has-text-centered">
+                                <div class="icon-wrap is-icon-reveal">
+                                    <ion-icon name="send-outline" size="large"></ion-icon>
+                                </div>
+                                <h4>ToooMail</h4>
+                                <p>Desktop mail client</p>
+                            </div>
+                        </div>
+                        <div class="column is-3">
+                            <div class="feature-icon has-text-centered">
+                                <div class="icon-wrap is-icon-reveal">
+                                    <ion-icon name="globe-outline" size="large"></ion-icon>
+                                </div>
+                                <h4>Jelly</h4>
+                                <p>IoT redesigned</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section section-light-grey is-medium">
+            <div class="container">
+                <div class="title-wrapper has-text-centered">
+                    <h2 class="title is-2 is-spaced">Drop us a line or two </h2>
+                    <h3 class="subtitle is-5 is-muted">We'd love to hear from You</h3>
+                    <div class="divider is-centered"></div>
+                </div>
+        
+                <div class="content-wrapper">
+                    <div class="columns">
+                        <div class="column is-6 is-offset-3">
+                            <form>
+                                <div class="columns is-multiline">
+                                    <div class="column is-6">
+                                        <input class="input is-medium" type="text" placeholder="First Name *">
+                                    </div>
+                                    <div class="column is-6">
+                                        <input class="input is-medium" type="text" placeholder="Last Name *">
+                                    </div>
+                                    <div class="column is-6">
+                                        <input class="input is-medium" type="text" placeholder="Email *">
+                                    </div>
+                                    <div class="column is-6">
+                                        <input class="input is-medium" type="email" placeholder="Company">
+                                    </div>
+                                    <div class="column is-12">
+                                        <textarea class="textarea" rows="6" placeholder=""></textarea>
+                                    </div>
+                                    <div class="column is-12">
+                                        <div class="form-footer has-text-right mt-10">
+                                            <button class="button cta is-large primary-btn form-button raised is-clear">Send Message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        <footer class="footer footer-dark">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <div class="footer-logo">
+                            <img src="assets/img/logos/logo_nextblu.png">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="footer-column">
+                            <div class="footer-header">
+                                <h3>Product</h3>
+                            </div>
+                            <ul class="link-list">
+                                <li><a href="#">Discover features</a></li>
+                                <li><a href="#">Why choose our Product ?</a></li>
+                                <li><a href="#">Compare features</a></li>
+                                <li><a href="#">Our Roadmap</a></li>
+                                <li><a href="#">Request features</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="footer-column">
+                            <div class="footer-header">
+                                <h3>Docs</h3>
+                            </div>
+                            <ul class="link-list">
+                                <li><a href="#">Get Started</a></li>
+                                <li><a href="#">User guides</a></li>
+                                <li><a href="#">Admin guide</a></li>
+                                <li><a href="#">Developers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="footer-column">
+                            <div class="footer-header">
+                                <h3>Blogroll</h3>
+                            </div>
+                            <ul class="link-list">
+                                <li><a href="#">Latest News</a></li>
+                                <li><a href="#">Tech articles</a></li>
+                                <li><a href="#">Video Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="footer-column">
+                            <div class="footer-header">
+                                <nav class="level is-mobile">
+                                    <div class="level-left">
+                                        <a class="level-item" href="https://github.com/nextblu/">
+                                            <span class="icon">
+                                                <ion-icon name="logo-github" size="large"></ion-icon>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </nav>
+        
+                                <a href="https://bulma.io" target="_blank">
+                                    <img src="assets/img/logos/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Back To Top Button -->
+        <div id="backtotop"><a href="#"></a></div>        <div class="sidebar">
+            <div class="sidebar-header">
+                <img src="assets/img/logos/logo_nextblu.png">
+                <a class="sidebar-close" href="javascript:void(0);"><i data-feather="x"></i></a>
+            </div>
+            <div class="inner">
+                <ul class="sidebar-menu">
+                    <li><span class="nav-section-title"></span></li>
+                    <li class="have-children"><a href="#">
+                        <span class="material-icons">apps</span>
+                        <span>Quick-actions</span>
+                    </a>
+                        <ul>
+                            <li><a href="https://me.nextblu.com">Login</a></li>
+                            <li><a href="https://cloud.nextblu.com">Cloud</a></li>
+                            <li><a href="https://tentacle.nextblu.com">Tentacle dashboard</a></li>
+                        </ul>
+                    </li>
+        
+                    <li class="have-children">
+                        <a href="#">
+                            <span class="material-icons">policy</span>
+                            <span>Settings</span>
+                        </a>
+                        <ul>
+                            <li><a href="#">User settings</a></li>
+                            <li><a href="#">App settings</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>        <!-- Concatenated JS -->
+        <script src="assets/js/app.js"></script>
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        
+        <!-- Fresh JS -->
+        <script src="assets/js/functions.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>  
+</html>
